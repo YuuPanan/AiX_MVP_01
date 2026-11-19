@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844">
+  <rect id="Screen_Background" width="390" height="844" fill="#FAFAF8"/>
+
+  <g id="Status_Bar">
+    <text x="25" y="34" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#171918">9:41</text>
+    <g transform="translate(319 19)" fill="none" stroke="#171918" stroke-width="2" stroke-linecap="round">
+      <path d="M0 11V8M5 11V6M10 11V4M15 11V2"/>
+      <path d="M23 6c3-3 7-3 10 0M25.5 8.5c1.5-1.5 3.5-1.5 5 0"/>
+      <rect x="38" y="2" width="20" height="10" rx="3"/><path d="M59.5 5v4"/>
+    </g>
+  </g>
+
+  <g id="Header">
+    <text x="24" y="82" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="750" fill="#171918">Compute Marketplace</text>
+    <g transform="translate(342 63)" fill="none" stroke="#404644" stroke-width="2" stroke-linecap="round">
+      <path d="M0 4h18M4 10h14M0 16h18"/><circle cx="4" cy="4" r="2" fill="#FAFAF8"/><circle cx="14" cy="10" r="2" fill="#FAFAF8"/><circle cx="7" cy="16" r="2" fill="#FAFAF8"/>
+    </g>
+  </g>
+
+  <g id="Search_Field">
+    <rect x="24" y="102" width="342" height="48" rx="13" fill="#FFFFFF" stroke="#D7DAD7"/>
+    <circle cx="48" cy="125" r="8" fill="none" stroke="#424846" stroke-width="2"/><path d="m54 131 6 6" stroke="#424846" stroke-width="2" stroke-linecap="round"/>
+    <text x="72" y="131" font-family="Inter,Arial,sans-serif" font-size="14" fill="#8A908E">Search GPU, model, or provider</text>
+  </g>
+
+  <g id="Region_Context">
+    <rect x="24" y="166" width="342" height="70" rx="14" fill="#FFF0E4"/>
+    <path d="M49 181a9 9 0 0 0-9 9c0 7 9 16 9 16s9-9 9-16a9 9 0 0 0-9-9Z" fill="none" stroke="#FF641A" stroke-width="1.8"/><circle cx="49" cy="190" r="3" fill="#FF641A"/>
+    <text x="72" y="190" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#171918">Your sourcing regions</text>
+    <text x="72" y="211" font-family="Inter,Arial,sans-serif" font-size="12" fill="#6D7371">Mainland China · Hong Kong SAR · Macao SAR</text>
+    <text x="336" y="203" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" fill="#FF641A">Edit</text>
+  </g>
+
+  <text x="24" y="270" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="750" fill="#171918">Available Compute</text>
+  <text x="366" y="270" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" fill="#7D8384">2 results</text>
+
+  <g id="Product_China_Telecom">
+    <rect x="24" y="286" width="342" height="206" rx="18" fill="#FFFFFF" stroke="#E0E3DF"/>
+    <rect x="40" y="306" width="100" height="96" rx="12" fill="#171918"/>
+    <path d="M56 319v68M73 319v68M90 319v68M107 319v68M124 319v68" stroke="#656B69" stroke-width="2"/>
+    <circle cx="124" cy="381" r="2.5" fill="#FF641A"/>
+    <text x="157" y="328" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="750" fill="#171918">China Telecom</text>
+    <text x="157" y="350" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="750" fill="#171918">H100 Cluster</text>
+    <text x="157" y="375" font-family="Inter,Arial,sans-serif" font-size="12.5" fill="#747A78">H100 · 120+ GPUs</text>
+    <text x="157" y="395" font-family="Inter,Arial,sans-serif" font-size="12.5" fill="#747A78">Beijing, China</text>
+    <text x="40" y="438" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="750" fill="#FF641A">$2.10</text>
+    <text x="108" y="438" font-family="Inter,Arial,sans-serif" font-size="13" fill="#FF641A">/ GPU / hour</text>
+    <rect x="262" y="416" width="88" height="32" rx="10" fill="#E6F7DD"/>
+    <circle cx="278" cy="432" r="4" fill="#49A83E"/>
+    <text x="289" y="437" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" fill="#2D8B31">Available</text>
+    <rect x="40" y="454" width="310" height="28" rx="9" fill="#171918"/>
+    <text x="195" y="473" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF">View details &amp; request quote</text>
+  </g>
+
+  <g id="Product_US_Compute_Hub">
+    <rect x="24" y="510" width="342" height="210" rx="18" fill="#F4F4F2" stroke="#E0E3DF"/>
+    <g opacity="0.6">
+      <rect x="40" y="530" width="100" height="96" rx="12" fill="#3E4241"/>
+      <path d="M56 543v68M73 543v68M90 543v68M107 543v68M124 543v68" stroke="#818684" stroke-width="2"/>
+      <text x="157" y="552" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="750" fill="#171918">US Compute Hub</text>
+      <text x="157" y="577" font-family="Inter,Arial,sans-serif" font-size="12.5" fill="#747A78">H100 · 80+ GPUs</text>
+      <text x="157" y="598" font-family="Inter,Arial,sans-serif" font-size="12.5" fill="#747A78">US West</text>
+      <text x="40" y="662" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="750" fill="#FF641A">$2.40</text>
+      <text x="108" y="662" font-family="Inter,Arial,sans-serif" font-size="13" fill="#FF641A">/ GPU / hour</text>
+    </g>
+    <rect x="40" y="678" width="310" height="32" rx="10" fill="#E7E8E6"/>
+    <circle cx="62" cy="694" r="9" fill="none" stroke="#747A78" stroke-width="1.6"/>
+    <text x="62" y="698" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" fill="#747A78">i</text>
+    <text x="80" y="699" font-family="Inter,Arial,sans-serif" font-size="12.5" font-weight="650" fill="#626866">Not Available in Your Region</text>
+  </g>
+
+  <g id="Bottom_Navigation">
+    <line x1="0" y1="782" x2="390" y2="782" stroke="#E8EAE7"/>
+    <g transform="translate(43 798)" fill="none" stroke="#8A908E" stroke-width="1.7"><path d="M0 8 7 2l7 6v8H9v-5H5v5H0Z"/><text x="7" y="36" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="9" fill="#8A908E" stroke="none">Home</text></g>
+    <g transform="translate(116 798)" fill="none" stroke="#FF641A" stroke-width="1.8"><circle cx="7" cy="8" r="5"/><path d="m11 12 4 4"/><text x="7" y="36" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="9" font-weight="700" fill="#FF641A" stroke="none">Search</text></g>
+    <g transform="translate(188 798)" fill="none" stroke="#8A908E" stroke-width="1.7"><rect x="1" y="2" width="12" height="14" rx="3"/><path d="M4 6h6M4 10h6"/><text x="7" y="36" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="9" fill="#8A908E" stroke="none">Orders</text></g>
+    <g transform="translate(269 798)" fill="none" stroke="#8A908E" stroke-width="1.7"><rect x="0" y="3" width="14" height="12" rx="3"/><path d="M0 7h14"/><text x="7" y="36" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="9" fill="#8A908E" stroke="none">Wallet</text></g>
+    <g transform="translate(349 798)" fill="none" stroke="#8A908E" stroke-width="1.7"><circle cx="7" cy="6" r="4"/><path d="M0 17c1-4 4-6 7-6s6 2 7 6"/><text x="7" y="36" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="9" fill="#8A908E" stroke="none">Profile</text></g>
+  </g>
+</svg>

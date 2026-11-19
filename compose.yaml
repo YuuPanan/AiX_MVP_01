@@ -1,0 +1,32 @@
+services:
+  postgres:
+    image: postgres:17
+    environment:
+      POSTGRES_USER: aix
+      POSTGRES_PASSWORD: "${AIX_POSTGRES_PASSWORD:?Set AIX_POSTGRES_PASSWORD before starting Docker Compose}"
+      POSTGRES_DB: aix
+    ports:
+      - "127.0.0.1:5436:5432"
+    volumes:
+      - aix_dev_db:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U aix -d aix"]
+      interval: 3s
+      timeout: 3s
+      retries: 10
+
+  clamav:
+    image: clamav/clamav:1.4
+    profiles: ["scanner"]
+    environment:
+      CLAMD_CONF_AlertEncrypted: "yes"
+      CLAMD_CONF_AlertExceedsMax: "yes"
+      CLAMD_CONF_StreamMaxLength: 5M
+    ports:
+      - "127.0.0.1:13310:3310"
+    volumes:
+      - aix_clamav_signatures:/var/lib/clamav
+
+volumes:
+  aix_dev_db:
+  aix_clamav_signatures:
